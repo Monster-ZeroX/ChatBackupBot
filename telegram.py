@@ -61,6 +61,6 @@ async def my_event_handler(event):
             for log_user in log_users:
                 g=post(BOT_url+'/sendmessage' , json={"chat_id":log_user,"text":tes})
                 print(g.text)
-print('bot started\nBY CHARINDITH(t.me/charindith)')
+print('bot started\nBY Dasun(t.me/dasun_pamod)')
 client.start()
 client.run_until_disconnected()
